@@ -123,7 +123,7 @@ const Single_Job = () => {
 {/* 
       {render the applications} */}
       <div className="my-8 ">
-      {job_data?.recruiter_id!==user?.id && (
+      {user?.unsafeMetadata?.role==='candidate' && (
         <Apply_jobs job={job_data} user={user} fetchJob={Single_job_data} 
         applied={job_data?.applied_details.find((ap)=>ap.candidate_id==user.id)}/>
       )}

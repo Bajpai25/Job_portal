@@ -25,7 +25,7 @@ const Header = () => {
     <>
       <nav className='py-4 px-6 flex justify-between items-center'>
         <Link>
-        <img src="./download.png" className='h-24'/>
+        <img src="/download.png" className='h-24'/>
         </Link>
         <div className='flex gap-8'>
          <SignedOut>
