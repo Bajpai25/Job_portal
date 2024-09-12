@@ -64,7 +64,7 @@ const Header = () => {
       </nav>
       {show && <div className='flex fixed inset-0 items-center justify-center bg-black bg-opacity-50' onClick={handleoverclick}
       >
-        <SignIn signUpForceRedirectUrl='/onboarding' fallbackRedirectUrl='/onboarding'/></div>}
+        <SignIn signUpForceRedirectUrl='./onboarding' fallbackRedirectUrl='./onboarding'/></div>}
       </>
   )
 }
