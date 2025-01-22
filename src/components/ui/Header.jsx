@@ -1,9 +1,9 @@
-import React,{useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Button } from './button'
-import { SignedIn, SignedOut, SignInButton, UserButton,SignIn } from '@clerk/clerk-react'
+import { SignedIn, SignedOut, UserButton,SignIn } from '@clerk/clerk-react'
 import { BriefcaseBusiness, Heart, PenBox } from 'lucide-react'
-import { useUser } from '@clerk/clerk-react' 
+import { useUser } from '@clerk/clerk-react'
 
 
 const Header = () => {

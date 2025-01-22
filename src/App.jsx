@@ -1,6 +1,4 @@
-import React from 'react'
 import "./App.css"
-import { useState, useEffect } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Applayout from './components/layout/Applayout'
 import Landing from './components/pages/Landing'

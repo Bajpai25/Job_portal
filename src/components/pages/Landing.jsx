@@ -1,4 +1,3 @@
-import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { Button } from '../ui/button';
 import { carousel_data } from '@/data/carousel';

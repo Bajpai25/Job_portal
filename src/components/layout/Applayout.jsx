@@ -1,4 +1,3 @@
-import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from '../ui/Header'
 
@@ -12,7 +11,7 @@ const Applayout = () => {
             <Outlet/>
         </main>
        <div className='p-4 text-center bg-gray-800 mt-4'>
-        Made with ❤️ by Shashwat Bajpai
+        Made with ❤️ by Jitin Patel
        </div>
     </div>
   )
